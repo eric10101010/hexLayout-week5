@@ -74,6 +74,11 @@ table {
       line-height: 24px;
       font-weight: bold;
       cursor: pointer; }
+    .sideBarItem a {
+      color: #000000;
+      text-decoration: none; }
+    .sideBarItem a:hover {
+      color: #198754; }
     .sideBarItemActive {
       color: #198754; }
   .sideBarItem:hover {
@@ -192,6 +197,8 @@ p {
     .assignmentMainImg img {
       width: 40px;
       height: 40px;
+      -o-object-fit: cover;
+         object-fit: cover;
       border-radius: 50%; }
     .assignmentMainUser {
       padding: 0 8px; }
