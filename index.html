@@ -1,10 +1,76 @@
----
-title: Index
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
-<main class="container-fluid">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Index</title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--區塊一--->
+    <nav class="sideBar d-flex flex-column  justify-content-between">
+      <ul class="sideBarBox">
+        <li>
+          <h1 class="sideBarLogo">
+            <a href="#">ANSWER</a>
+          </h1>
+        </li>
+        <li class="sideBarItem">
+          <span class="material-icons">
+            assessment
+          </span>
+          <p>Dashboard</p>
+        </li>
+        <li class="sideBarItem">
+          <span class="material-icons">
+            question_answer
+          </span>
+          <p>Question</p>
+        </li>
+        <li class="sideBarItem">
+          <span class="material-icons">
+            video_library
+          </span>
+          <p class="sideBarItemActive">Assignment</p>
+        </li>
+        <li class="sideBarItem">
+          <span class="material-icons">
+            assignment
+          </span>
+          <p>Course</p>
+        </li>
+        <li class="sideBarItem">
+          <span class="material-icons">
+            supervisor_account
+          </span>
+          <p>Admin</p>
+        </li>
+        <li class="sideBarItem">
+          <span class="material-icons">
+            settings
+          </span>
+          <p>Settings</p>
+        </li>
+      </ul>
+      <!--區塊二-->
+      <ul class="sideBarMember">
+        <li class="sideBarImg">
+          <img src="./assets/images/andychen.jpeg" alt="admin-photo">
+        </li>
+        <li class="sideBarText">
+          <p>Andy Chen</p>
+          <span>andy0401@mail.com</span>
+        </li>
+      </ul>
+    </nav>
+  <main>
+    <main class="container-fluid">
     <div class="common">
         <ul class="commonHeader d-flex justify-content-between">
             <li class="d-flex align-items-center">
@@ -176,3 +242,13 @@ current: index
         </div>
     </section>   
 </main>
+
+  </main>
+  <footer class="footer">
+    <!-- footer -->
+  </footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

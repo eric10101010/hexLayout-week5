@@ -1,0 +1,301 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.sideBar {
+  position: fixed;
+  min-width: 296px;
+  min-height: 100vh;
+  background-color: #F8F9FA; }
+  .sideBarLogo {
+    margin-top: 40px; }
+    .sideBarLogo a {
+      width: 151px;
+      height: 40px;
+      background-image: url("../images/logo-ANSWER.svg");
+      background-size: cover;
+      display: block;
+      text-indent: 101%;
+      overflow: hidden;
+      white-space: nowrap; }
+  .sideBarItem {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 29px; }
+    .sideBarItem span {
+      font-size: 32px;
+      padding-right: 18px; }
+    .sideBarItem p {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold;
+      cursor: pointer; }
+    .sideBarItemActive {
+      color: #198754; }
+  .sideBarItem:hover {
+    color: #198754; }
+  .sideBarMember {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 32px; }
+  .sideBarImg {
+    padding-right: 16px; }
+    .sideBarImg img {
+      border-radius: 24px;
+      width: 40px;
+      height: 40px; }
+  .sideBarText p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0; }
+  .sideBarText span {
+    font-size: 14px; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: 'Lato', 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+a {
+  text-decoration: none;
+  display: block; }
+
+main {
+  width: 1296px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0; }
+
+.common {
+  padding: 0 32px;
+  padding-top: 32px; }
+  .commonHeader {
+    padding-left: 296px; }
+    .commonHeader h2 {
+      font-size: 24px;
+      line-height: 33px;
+      font-weight: bold;
+      padding-right: 48px; }
+    .commonHeader h3 {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold; }
+
+.assignment {
+  min-height: 100vh;
+  padding: 0 32px; }
+  .assignmentContent {
+    padding-left: 296px; }
+  .assignmentMainBox {
+    width: 100%; }
+  .assignmentList a {
+    color: #212529;
+    text-decoration: none; }
+  .assignmentList a:hover {
+    color: #212529;
+    background-color: #F8F9FA; }
+  .assignmentListItem {
+    width: 320px;
+    padding: 12px;
+    border: 1px solid #CED4DA; }
+    .assignmentListItem h4, .assignmentListItem span, .assignmentListItem p {
+      font-size: 12px;
+      line-height: 15px; }
+    .assignmentListItem h3 {
+      font-size: 16px;
+      line-height: 19px;
+      font-weight: bold;
+      margin: 0; }
+    .assignmentListItem p {
+      color: #6C757D; }
+  .assignmentActive {
+    background-color: #F8F9FA; }
+  .assignmentMainHeader {
+    padding: 12px 16px;
+    border: 1px solid #CED4DA; }
+    .assignmentMainHeader h4 {
+      font-size: 12px;
+      line-height: 15px; }
+    .assignmentMainHeader h3 {
+      font-size: 16px;
+      line-height: 19px;
+      font-weight: bold;
+      margin: 0; }
+  .assignmentMain {
+    width: 584px; }
+    .assignmentMainBody {
+      padding: 0 16px; }
+    .assignmentMainImg img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%; }
+    .assignmentMainUser {
+      padding: 0 8px; }
+      .assignmentMainUser p {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: bold;
+        margin: 0;
+        padding-bottom: 4px; }
+      .assignmentMainUser span {
+        font-size: 12px;
+        line-height: 15px;
+        color: #6C757D; }
+    .assignmentMainMessage {
+      color: #212529;
+      padding: 16px 0px 0px 48px; }
+      .assignmentMainMessage p {
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0; }
+      .assignmentMainMessage ul {
+        list-style-type: disc;
+        margin-bottom: 22px; }
+
+.zipBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 16px; }
+  .zipBtn span {
+    padding-left: 12px;
+    padding-right: 8px; }
+  .zipBtn a {
+    padding: 8px 0;
+    padding: 11px 16px 10px 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #212529;
+    background-color: #F8F9FA;
+    border: 1px solid #CED4DA; }
+  .zipBtn a:hover {
+    color: #212529; }
+
+.pageBtn {
+  margin-top: 16px;
+  margin-bottom: 40px; }
+  .pageBtn a {
+    text-decoration: none;
+    color: #000000; }
+  .pageBtn a:hover {
+    color: #CED4DA; }
+
+.admin {
+  padding-left: 296px; }
+
+.pageBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.pageItem {
+  border: 1px solid #198754;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .pageItem a {
+    font-size: 16px;
+    color: #212529;
+    line-height: 24px;
+    text-decoration: none; }
+
+.pageItem:hover {
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  background-color: #198754; }
+  .pageItem:hover a {
+    color: #ffffff; }
+  .pageItem:hover span {
+    color: #ffffff; }
+
+.pageLink {
+  padding: 0 11.5px; }
+
+.pageLink-forward span, .pageLink-backward span {
+  color: #198754; }
+
+.pageActive {
+  background-color: #198754; }
+  .pageActive a {
+    color: #ffffff; }
+
+.arrowDown {
+  padding-left: 7px; }
+
+/*# sourceMappingURL=all.css.map */
