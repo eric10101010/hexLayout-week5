@@ -1,0 +1,18 @@
+.common{
+    padding: 0 32px;
+    padding-top: 32px;
+    &Header{
+        padding-left: 296px;
+        h2{
+            font-size: $text-l;
+            line-height: 33px;
+            font-weight: bold;
+            padding-right: 48px;
+        }
+        h3{
+            font-size: $text-base;
+            line-height: 24px;
+            font-weight: bold;
+        }
+    }
+}

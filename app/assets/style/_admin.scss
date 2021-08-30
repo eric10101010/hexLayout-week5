@@ -1,0 +1,49 @@
+.admin{
+    padding-left: 296px;
+}
+.page{
+    &Box{
+        display: flex;
+        justify-content: flex-end;
+    }
+    &Item{
+        border: 1px solid $primary;
+        display: flex;
+        align-items: center;
+
+        a{
+            font-size: $text-base;
+            color: #212529;
+            line-height: 24px;
+            text-decoration: none;
+        }
+    }
+    &Item:hover{
+        transition: .5s;
+        background-color: $primary;
+        a{
+            color: $white;
+        }
+        span{
+            color: $white;
+        }
+
+    }
+    &Link{
+        padding: 0 11.5px;
+    }
+    &Link-forward, &Link-backward{
+        span{
+            color: $primary;
+        }
+    }
+    &Active{
+        background-color: $primary;
+        a{
+            color: $white;
+        }
+    }
+}
+.arrowDown{
+    padding-left: 7px;
+}
